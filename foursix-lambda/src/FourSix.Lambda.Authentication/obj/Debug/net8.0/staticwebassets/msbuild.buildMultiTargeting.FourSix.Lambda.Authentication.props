@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FourSix.Lambda.Authentication.props" />
+</Project>

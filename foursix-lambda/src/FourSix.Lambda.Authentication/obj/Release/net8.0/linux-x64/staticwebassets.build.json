@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fxAtMlUGsbmeoScY4/ELsk0GglB0D5ZWLaEbG9PkXg4=",
+  "Source": "FourSix.Lambda.Authentication",
+  "BasePath": "_content/FourSix.Lambda.Authentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
