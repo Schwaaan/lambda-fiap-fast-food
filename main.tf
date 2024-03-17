@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 resource "random_uuid" "bucket_random_id" {
@@ -23,15 +23,14 @@ resource "aws_s3_bucket" "lambda_bucket" {
 
 data "archive_file" "lambda_archive" {
   type = "zip"
-
-  source_dir  = "Functions/Dotnet.CDK.Lambda/src/Dotnet.CDK.Lambda/bin/Release/net8.0/linux-x64/publish"
-  output_path = "Dotnet.CDK.Lambda.zip"
+  source_dir  = "foursix-lambda\src\FourSix.Lambda.Authentication\bin\Release\net8.0\linux-x64\publish"
+  output_path = "FourSix.Lambda.Authentication.zip"
 }
 
 resource "aws_s3_object" "lambda_bundle" {
   bucket = aws_s3_bucket.lambda_bucket.id
 
-  key    = "Dotnet.CDK.Lambda.zip"
+  key    = "FourSix.Lambda.Authentication.zip"
   source = data.archive_file.lambda_archive.output_path
 
   etag = filemd5(data.archive_file.lambda_archive.output_path)
