@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "lambda_bucket" {
 
 data "archive_file" "lambda_archive" {
   type = "zip"
-  source_dir  = "foursix-lambda\src\FourSix.Lambda.Authentication\bin\Release\net8.0\linux-x64\publish"
+  source_dir  = "foursix-lambda/src/FourSix.Lambda.Authentication/bin/Release/net8.0/linux-x64/publish"
   output_path = "FourSix.Lambda.Authentication.zip"
 }
 
