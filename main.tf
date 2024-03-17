@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "lambda_bucket" {
 data "archive_file" "lambda_archive" {
   type = "zip"
 
-  source_dir  = "Functions/Dotnet.CDK.Lambda/src/Dotnet.CDK.Lambda/bin/Release/net6.0/linux-x64/publish"
+  source_dir  = "Functions/Dotnet.CDK.Lambda/src/Dotnet.CDK.Lambda/bin/Release/net8.0/linux-x64/publish"
   output_path = "Dotnet.CDK.Lambda.zip"
 }
 
