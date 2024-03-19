@@ -29,7 +29,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
     - name: Zip folder
-      run: zip -r -j folder.zip /home/runner/work/lambda_foursix/lambda_foursix/foursix-lambda/src/FourSix.Lambda.Authentication/bin/Release/net6.0/linux-x64/publish/
+      run: zip -r -j folder.zip /home/runner/work/lambda-fiap-fast-food/lambda-fiap-fast-food/foursix-lambda/src/FourSix.Lambda.Authentication/bin/Release/net6.0/linux-x64/publish/
     - name: List Files
       run: ls
     - name: Install AWS CLI
