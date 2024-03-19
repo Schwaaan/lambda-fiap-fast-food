@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|c:\\projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\foursix.lambda.authentication\\application\\cognitomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|solutionrelative:foursix-lambda\\src\\foursix.lambda.authentication\\application\\cognitomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|c:\\projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\foursix.lambda.authentication\\application\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|solutionrelative:foursix-lambda\\src\\foursix.lambda.authentication\\application\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|c:\\projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\foursix.lambda.authentication\\aws-lambda-tools-defaults.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1EEF9C2D-0304-4CFA-86D4-FD356A7AA7A9}|foursix-lambda\\src\\FourSix.Lambda.Authentication\\FourSix.Lambda.Authentication.csproj|solutionrelative:foursix-lambda\\src\\foursix.lambda.authentication\\aws-lambda-tools-defaults.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CognitoManager.cs",
+              "DocumentMoniker": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\CognitoManager.cs",
+              "RelativeDocumentMoniker": "foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\CognitoManager.cs",
+              "ToolTip": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\CognitoManager.cs",
+              "RelativeToolTip": "foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\CognitoManager.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:40.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthManager.cs",
+              "DocumentMoniker": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\IAuthManager.cs",
+              "RelativeDocumentMoniker": "foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\IAuthManager.cs",
+              "ToolTip": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\IAuthManager.cs",
+              "RelativeToolTip": "foursix-lambda\\src\\FourSix.Lambda.Authentication\\Application\\IAuthManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:38.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "aws-lambda-tools-defaults.json",
               "DocumentMoniker": "C:\\Projetos\\pos-graduacao\\lambda-fiap-fast-food\\foursix-lambda\\src\\FourSix.Lambda.Authentication\\aws-lambda-tools-defaults.json",
               "RelativeDocumentMoniker": "foursix-lambda\\src\\FourSix.Lambda.Authentication\\aws-lambda-tools-defaults.json",
