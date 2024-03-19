@@ -64,8 +64,8 @@ namespace FourSix.Lambda.Authentication.Application
             var signUpRequest = new ConfirmSignUpRequest
             {
                 ClientId = clientId,
-                ConfirmationCode = userName,
-                Username = codeVerification,
+                ConfirmationCode = codeVerification,
+                Username = userName,
             };
 
             var response = await _cognitoClient.ConfirmSignUpAsync(signUpRequest);
