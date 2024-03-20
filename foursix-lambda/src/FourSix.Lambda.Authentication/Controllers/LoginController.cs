@@ -116,7 +116,7 @@ public class LoginController : ControllerBase
     [HttpGet]
     public string Get()
     {
-        return "testeOk_v1";
+        return "testeOk_v2";
     }
 
 
